@@ -1,0 +1,20 @@
+POST http://127.0.0.1:8080/orders
+
+###
+GET http://127.0.0.1:8080/orders
+
+###
+POST http://127.0.0.1:8080/orders/facf6ea7-4892-4b66-920b-f20353a4a320/lines
+
+{
+  "sku": 1111,
+  "quantity": 2
+}
+
+###
+POST http://127.0.0.1:8080/orders/facf6ea7-4892-4b66-920b-f20353a4a320/lines
+
+{
+  "wrong!": 1111,
+  "quantity": 2
+}
