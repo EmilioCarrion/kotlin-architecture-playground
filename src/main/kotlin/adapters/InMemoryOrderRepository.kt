@@ -1,7 +1,7 @@
 package adapters
 
 import application.domain.Order
-import application.ports.required.OrderRepository
+import application.domain.ports.required.OrderRepository
 import java.util.UUID
 
 class InMemoryOrderRepository : OrderRepository {

@@ -1,7 +1,7 @@
 package entrypoints.ktor
 
 import application.domain.Order
-import application.ports.provided.GetAllOrders
+import application.domain.ports.provided.GetAllOrders
 import entrypoints.ktor.plugins.configureRouting
 import io.ktor.client.request.*
 import io.ktor.client.statement.*

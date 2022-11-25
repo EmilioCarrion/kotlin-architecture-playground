@@ -2,12 +2,16 @@ package entrypoints.ktor
 
 import adapters.InMemoryOrderRepository
 import application.actions.*
+import application.domain.ports.provided.AddLineToOrder
+import application.domain.ports.provided.CreateOrder
+import application.domain.ports.provided.DeleteOrder
+import application.domain.ports.provided.GetAllOrders
 import application.ports.provided.*
 
 
 import entrypoints.ktor.plugins.configureRouting
 
-import application.ports.required.OrderRepository
+import application.domain.ports.required.OrderRepository
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*

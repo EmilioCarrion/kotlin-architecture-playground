@@ -3,8 +3,8 @@ package application
 import adapters.InMemoryOrderRepository
 import application.actions.GetAllOrdersImpl
 import application.domain.Order
-import application.ports.provided.GetAllOrders
-import application.ports.required.OrderRepository
+import application.domain.ports.provided.GetAllOrders
+import application.domain.ports.required.OrderRepository
 import entrypoints.ktor.BaseApplicationTest
 import io.ktor.client.request.*
 import io.ktor.client.statement.*

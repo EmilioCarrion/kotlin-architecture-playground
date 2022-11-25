@@ -1,5 +1,8 @@
 package entrypoints.ktor.plugins
 
+import application.domain.ports.provided.AddLineToOrder
+import application.domain.ports.provided.CreateOrder
+import application.domain.ports.provided.GetAllOrders
 import application.ports.provided.*
 import entrypoints.ktor.serializers.OrderLineSerializer
 import entrypoints.ktor.serializers.OrderSerializer

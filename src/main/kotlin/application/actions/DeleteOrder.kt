@@ -1,7 +1,7 @@
 package application.actions
 
-import application.ports.provided.DeleteOrder
-import application.ports.required.OrderRepository
+import application.domain.ports.provided.DeleteOrder
+import application.domain.ports.required.OrderRepository
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 import java.util.*

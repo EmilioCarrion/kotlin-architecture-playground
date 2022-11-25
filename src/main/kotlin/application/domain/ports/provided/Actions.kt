@@ -1,4 +1,4 @@
-package application.ports.provided
+package application.domain.ports.provided
 
 import application.domain.Order
 import java.util.*
